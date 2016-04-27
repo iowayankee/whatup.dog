@@ -203,7 +203,15 @@ var WhatUpDogApp = React.createClass({displayName: "WhatUpDogApp",
       this.addMessage('server', 'Welcome ' + this.state.name + '!');
     },
     wait: function(){
-      this.setState({ paired : false, canFindNewPartner : false });
+      this.setState({
+        paired : false,
+        partnerName : '',
+        partnerBreed : '',
+        room : '',
+        canExitChat : true,
+        canFindNewPartner : false,
+        canSendMessages : false
+      });
       this.forceUpdate();
       this.addMessage('server', 'Waiting... you will be paired up with the next dog that appears.');
     },
