@@ -1,4 +1,4 @@
-
+/*
 var socket = io();
 
 var connected = true;
@@ -143,3 +143,4 @@ socket.on('exited', function (){
 socket.on('message', function(message){
   appendMessage(partnerName + ': ' + message);
 });
+*/
