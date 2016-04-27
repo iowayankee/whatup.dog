@@ -1,0 +1,11 @@
+{
+  "name": "whatupDog",
+  "version": "0.0.1",
+  "description": "A node.js/socket.io random chat room for dogs",
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.6",
+    "react": "^15.0.1"
+  }
+}

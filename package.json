@@ -1,0 +1,24 @@
+{
+  "name": "whatupDog",
+  "version": "0.0.1",
+  "description": "A node.js/socket.io random chat room for dogs",
+  "author": "Chris",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "main": "wud.server.js",
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "reactify": "^1.1.1",
+    "socket.io": "^1.4.5",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "engines": {
+    "node": "5.10.1"
+  }
+}
